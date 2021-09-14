@@ -1,1 +1,31 @@
-theme: jekyll-theme-minimal
+title: Ewan Flintham
+description: "Personal homepage of Ewan Flintham"
+
+
+# Author Settings
+author: Ewan Flintham # add your name
+
+author-img: my_profile.jpeg # add your photo with this name in 'assets/img/' folder. 
+
+about-author: "PhD student at Imperial College London with Vincent Savolainen, Matteo Fumagalli and Charles Mullon. Evolutionary genetics/sexual selection/sexual conflict."
+# I copied this from your Twitter description
+
+social-twitter: EwanFlintham 
+social-google-scholar: IRxOMq4AAAAJ
+social-github: eoflintham 
+social-email: e.flintham17@imperial.ac.uk
+
+collections:
+  projects:
+    output: true
+    title: List of projects
+    directory: ./_projects
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
