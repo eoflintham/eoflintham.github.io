@@ -3,7 +3,7 @@ layout: post
 title: "About me"
 date: 2020-09-10
 description: "Short description of my CV."
-img: group_picture_Mullon.jpeg 
+img: /assets/img/my_profile.jpeg 
 fig-caption: "People I love to discuss science with."
 permalink: AboutMe
 ---
